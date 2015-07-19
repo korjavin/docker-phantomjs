@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM korjavin/korjavin-base
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV PHANTOM_JS_VERSION 1.9.7-linux-x86_64
